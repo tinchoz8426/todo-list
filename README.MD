@@ -2,6 +2,7 @@
 
 Proyecto realizado con el fin de usar jQuery para el curso de JavaScript de CODERHOUSE
 
+Te dejo el link de la página: https://to-do-lista.netlify.app/
 
 ## Tecnologías utilizadas
 -Se ha utilizado html5 semántico, CSS vanilla, JavaScript, jQuery y una libreria de JavaScript llamada draggable.js.
