@@ -1,0 +1,96 @@
+/* Selector universal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+/* HTML, BODY */
+html, 
+body{
+    min-height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container{
+    height: 600px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 0.8em;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.24);
+}
+h1{
+    color: #464646;
+}
+.paragraph{
+    border-bottom: 1px solid #868686;
+    padding-bottom: 10px;
+    margin: 5px 2px;
+}
+.input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: rgba(184, 184, 184, 0.459);
+    border-radius: 0.5em;
+    padding: 10px;
+}
+.input::placeholder{
+    color: rgb(26, 26, 26);
+    text-align: center;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 55px;
+    background: #d3d3d3;
+    color: royalblue;
+    padding: 10px 60px 10px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    word-break: break-all;
+    overflow: auto;
+}
+.fa-check,
+.fa-trash-alt{
+    position: absolute;
+    cursor: pointer;
+}
+.fa-trash-alt{
+    right: 10px;
+    color: #ff0033;
+}
+.fa-check{
+    right: 35px;
+    color: green;
+}
+.checked{
+    background: greenyellow;
+    text-decoration: line-through;  
+}
+.deleted{
+    background: rgba(255, 99, 71, 0.507);
+    text-decoration: line-through;
+}
+.align-icons{
+    display: flex;
+    align-items: center;
+}
+
+
+.sortable-chosen{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+.sortable-drag{
+    opacity: 0;
+}
